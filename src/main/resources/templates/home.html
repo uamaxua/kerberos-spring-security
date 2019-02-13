@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<head>
+</head>
+
+<body>
+
+<div class="container content">
+    Current user: <span sec:authentication="name"></span>
+</div>
+
+<footer class="footer"><b>This is protected page</b></footer>
+</body>
+</html>
